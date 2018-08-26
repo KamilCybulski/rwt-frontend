@@ -2,7 +2,7 @@ import { configure } from '@storybook/react';
 
 function loadStories() {
   const req = require.context(
-    '../components',
+    '../src/components',
     true,
     /.+\/__stories__\/.+\.js/
   );
